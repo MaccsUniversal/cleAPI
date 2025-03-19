@@ -1,4 +1,4 @@
-page 99001 "Customer Ledger Entries API"
+page 99004 "Customer Ledger Entries API"
 {
     PageType = API;
     ApplicationArea = All;
@@ -7,16 +7,15 @@ page 99001 "Customer Ledger Entries API"
 
     APIVersion = 'v2.0';
     APIPublisher = 'Dataverse';
-    APIGroup = 'VirtualTable';
+    APIGroup = 'CustomerLedgerVT';
 
-    EntityCaption = 'Customer Item Group';
-    EntitySetCaption = 'Customer Item Groups';
-    EntitySetName = 'customerItemGroups';
-    EntityName = 'customerItemGroup';
+    EntityCaption = 'Customer Ledger';
+    EntitySetCaption = 'Customer Ledger Rows';
+    EntitySetName = 'customerLedger';
+    EntityName = 'customerLedgerRows';
 
     ODataKeyFields = SystemId;
     Permissions = tabledata "Cust. Ledger Entry" = R;
-    // Permissions = tabledata Customer_Item_Group_Code = R;
 
     Extensible = false;
     DelayedInsert = true;
