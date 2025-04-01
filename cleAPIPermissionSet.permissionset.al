@@ -1,4 +1,4 @@
-permissionset 99002 cleAPIPermissionSet
+permissionset 99002 CLEAPIPermissionSet
 {
     Assignable = true;
     Permissions = page "Customer Ledger Entries API" = X,

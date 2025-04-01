@@ -1,4 +1,4 @@
-page 99004 "Customer Ledger Entries API"
+page 99002 "Customer Ledger Entries API"
 {
     PageType = API;
     ApplicationArea = All;
@@ -84,36 +84,42 @@ page 99004 "Customer Ledger Entries API"
                 {
                     Caption = 'Original Amount';
                     Editable = false;
+                    DecimalPlaces = 2;
                 }
 
                 field("amount"; rec.Amount)
                 {
                     Caption = 'Amount';
                     Editable = false;
+                    DecimalPlaces = 2;
                 }
 
                 field("amountLCY"; rec."Amount (LCY)")
                 {
                     Caption = 'Amount LCY';
                     Editable = false;
+                    DecimalPlaces = 2;
                 }
 
                 field("remainingAmount"; rec."Remaining Amount")
                 {
                     Caption = 'Remaining Amount';
                     Editable = false;
+                    DecimalPlaces = 2;
                 }
 
                 field("remainingAmountLCY"; rec."Remaining Amt. (LCY)")
                 {
                     Caption = 'Remaining Amount (LCY)';
                     Editable = false;
+                    DecimalPlaces = 2;
                 }
 
                 field("salesLCY"; rec."Sales (LCY)")
                 {
                     Caption = 'Sales (LCY)';
                     Editable = false;
+                    DecimalPlaces = 2;
                 }
 
                 field("open"; rec.Open)
